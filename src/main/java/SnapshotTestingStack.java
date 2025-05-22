@@ -1,10 +1,10 @@
 import java.util.Stack;
 
-public class snapshotTestingStack {
+public class SnapshotTestingStack {
     private StringBuilder text;
     private Stack<String> history;
 
-    public snapshotTestingStack() {
+    public SnapshotTestingStack() {
         this.text = new StringBuilder();
         this.history = new Stack<String>();
     }
