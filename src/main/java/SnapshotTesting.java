@@ -1,14 +1,14 @@
-public class snapshotTesting {
+public class SnapshotTesting {
     private StringBuilder text;
     private StringBuilder savedText;
 
-    public snapshotTesting() {
+    public SnapshotTesting() {
         this.text = new StringBuilder();
         this.savedText = new StringBuilder();
     }
 
     public static void main(String[] args) {
-        snapshotTesting example = new snapshotTesting();
+        SnapshotTesting example = new SnapshotTesting();
         example.append("Hello ");
         example.append("World");
         example.append(" Java");
