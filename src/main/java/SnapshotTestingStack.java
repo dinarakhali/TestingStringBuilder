@@ -10,7 +10,7 @@ public class SnapshotTestingStack {
     }
 
     public static void main(String[] args) {
-        snapshotTestingStack example = new snapshotTestingStack();
+        SnapshotTestingStack example = new SnapshotTestingStack();
         example.append("Hello ");
         example.append("World");
         example.append(" Java");
